@@ -1,0 +1,6 @@
+[package]
+name = "Make_Two_Arrays_Equal_by_Reversing_Subarrays"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

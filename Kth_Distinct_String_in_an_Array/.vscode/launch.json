@@ -1,0 +1,45 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "lldb",
+			"request": "launch",
+			"name": "Debug executable 'Kth_Distinct_String_in_an_Array'",
+			"cargo": {
+				"args": [
+					"build",
+					"--bin=Kth_Distinct_String_in_an_Array",
+					"--package=Kth_Distinct_String_in_an_Array"
+				],
+				"filter": {
+					"name": "Kth_Distinct_String_in_an_Array",
+					"kind": "bin"
+				}
+			},
+			"args": [],
+			"cwd": "${workspaceFolder}"
+		},
+		{
+			"type": "lldb",
+			"request": "launch",
+			"name": "Debug unit tests in executable 'Kth_Distinct_String_in_an_Array'",
+			"cargo": {
+				"args": [
+					"test",
+					"--no-run",
+					"--bin=Kth_Distinct_String_in_an_Array",
+					"--package=Kth_Distinct_String_in_an_Array"
+				],
+				"filter": {
+					"name": "Kth_Distinct_String_in_an_Array",
+					"kind": "bin"
+				}
+			},
+			"args": [],
+			"cwd": "${workspaceFolder}"
+		}
+	]
+}
