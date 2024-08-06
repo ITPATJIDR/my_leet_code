@@ -1,0 +1,6 @@
+[package]
+name = "Minimum_Number_of_Pushes_to_Type_Word_II"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
